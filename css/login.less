@@ -1,0 +1,175 @@
+@base-color:#45A2FF;
+body,html{
+  margin:0 auto;
+  font-family:"苹方字体";
+}
+.easytrip-login{
+  width: 1920px;
+  height: 1080px;
+  background:url("../images/loginbackground.png") no-repeat;
+  background-size:cover;
+  background-position: center center;
+  text-align: center;
+  overflow: hidden;
+  margin: 0 auto;
+  .easytrip-logo{
+    width: 245px;
+    height: 119px;
+    background:url("../images/logo.png") no-repeat;
+    margin-left:50%;
+    margin-top: 105px;
+    transform:translateX(-122.5px);
+    -ms-transform:translateX(-122.5px);	/* IE 9 */
+    -moz-transform:translateX(-122.5px); 	/* Firefox */
+    -webkit-transform:translateX(-122.5px); /* Safari 和 Chrome */
+    -o-transform:translateX(-122.5px); /* Opera */
+  }
+  .easytrip-logintext::before{
+    content: '';
+    display: block;
+    width: 82px;
+    height: 1px;
+    background-color:#FAFFFA;
+    position: absolute;
+    left:40%;
+    top:50%;
+  }
+  .easytrip-logintext::after{
+    content: '';
+    display: block;
+    width: 82px;
+    height: 1px;
+    background-color:#FAFFFA;
+    position: absolute;
+    right:40%;
+    top:50%;
+  }
+  .easytrip-logintext{
+    font-size: 24px;
+    color: #fff;
+    position: relative;
+    margin-top: 40px;
+  }
+  .easytrip-logininput{
+    background: url("../images/logininput.png");
+    width: 661px;
+    height: 436px;
+    margin-left:50%;
+    margin-top: 106px;
+    padding-top: 50px;
+    transform:translateX(-330.5px);
+    -ms-transform:translateX(-330.5px);	/* IE 9 */
+    -moz-transform:translateX(-330.5px); 	/* Firefox */
+    -webkit-transform:translateX(-330.5px); /* Safari 和 Chrome */
+    -o-transform:translateX(-330.5px); /* Opera */
+    p{
+      color: #2a2a2a;
+      font-size: 24px;
+      span{
+        font-size: 30px;
+        color: #45A2FF;
+      }
+    }
+    //输入框的基本样式
+    input[type="text"]{
+      margin-top: 30px;
+      border:1px solid #b3b3b3;
+      width: 318px;
+      height: 40px;
+      border-radius: 3px;
+      font-size: 18px;
+      color: #999;
+    }
+    .easytrip-loginusername{
+      padding: 0 150px;
+      position: relative;
+      .easytrip-loginname{
+      }
+      .easytrip-loginname:hover{
+        border: 1px solid #ffc468;
+      }
+      .username{
+        font-size:22px;
+        color: #ffc468;
+        position: absolute;
+        left:160px;
+        top:12px;
+      }
+    }
+    .easytrip-loginlock{
+      padding: 0 150px;
+      position: relative;
+      .password{
+        font-size:22px;
+        position: absolute;
+        left:160px;
+        top:12px;
+        color: #999;
+      }
+      .easytrip-loginpassword:hover{
+        border: 1px solid #ffc468;
+      }
+    }
+    .easytrip-alink{
+      text-align: left;
+      padding: 0 150px;
+      margin-top: 30px;
+      font-size: 18px;
+      .easytrip-getpassword{
+        position: relative;
+        float: left;
+        input[type = "radio"] {
+          display: none;
+        }
+        label{
+
+          padding-left: 35px;
+          }
+        i{
+          position: absolute;
+          display: block;
+          width: 19px;
+          height: 19px;
+          background: url("../images/confirm.png");
+          top:0px;
+          left: 0px;
+        }
+      }
+      .easytrip-forgetpassword{
+        float: right;
+        color: #ffc468;
+      }
+    }
+    .easytrip-submit{
+      padding: 0 150px;
+      input[type="button"] {
+        margin-top: 30px;
+        border:1px solid #b3b3b3;
+        width: 360px;
+        height: 40px;
+        border-radius: 3px;
+        font-size: 18px;
+        color: #fff;
+        background-color: @base-color;
+      }
+    }
+    .easytrip-commitsoon{
+      padding: 0 150px;
+      margin-top: 15px;
+      a{
+        float: right;
+        color: #999;
+      }
+    }
+  }
+  .easytrip-loginfoot{
+    text-align: center;
+    margin-top: 170px;
+    span{
+      color: #2a2a2a;
+      font-size: 24px;
+    }
+  }
+}
+
+

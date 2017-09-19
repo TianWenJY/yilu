@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <link href="" rel="stylesheet">
+    <script type="text/javascript">
+        function hoversee(){
+            var list = document.getElementById('nav');
+            var zu = list.getElementsByTagName("li");
+            for(var i=0;i<9;i++)
+            {
+                zu[i].onmouseover = function(){
+                    this.getElementsByTagName('dl')[0].style.display = "block";
+                }
+                zu[i].onmouseout = function(){
+                    this.getElementsByTagName('dl')[0].style.display = "none";
+                }
+            }
+        }
+        window.onload = hoversee;
+    </script>
+    <style>
+        *{
+            font-family:Microsoft YaHei;
+            margin:0;
+            padding:0;
+        }
+        body{width:100%;}
+        ul{list-style: none;}
+        a{text-decoration: none;}
+        #header{
+            height:50px;
+            line-height:50px;
+            background:#455A6E;
+        }
+        #header h2,#header h3{
+            font-weight:500;
+        }
+        #header h2{
+            color:#fff;
+            font-size:18px;
+            width:180px;
+            text-align: center;
+            background:#0D2E49;
+        }
+        #header h3{color:#fff;font-size:16px;}
+        .mycenter{
+            width:900px;
+            margin:0 auto;
+        }
+        #header div.mycenter{
+            /*相对定位*/
+            position:relative;
+        }
+        #nav {
+            width:180px;
+            background:rgba(0, 102, 173, 0.5);
+            z-index:999;
+        }
+        #nav li{
+            height:40px;
+            padding-left:40px;
+            line-height: 40px;
+            position:relative;
+        }
+        #nav h3{height:40px;}
+        #nav li dl{
+            position:relative;
+            left:140px;
+            top:-40px;
+            width:150px;
+            background:#fff;
+            display:none;
+            padding:8px 10px;
+        }
+        #nav dt{
+            width:150px;
+            line-height: 30px;
+            height:30px;
+            background:#36C1AF;
+            color:#fff;
+            text-align: center;
+        }
+        #nav dd a{
+            display:block;
+            height:30px;
+            width:150px;
+            font-size:14px;
+            color:#858585;
+        }
+        #nav dd a:hover{
+            text-decoration: underline;
+        }
+        #content{
+            background:#E95200;
+            height:500px;
+        }
+    </style>
+</head>
+<body>
+<div id="header">
+    <div class="mycenter">
+        <h2>后台管理菜单</h2>
+        <ul id="nav">
+            <li>
+                <h3>帐号管理</h3>
+                <dl>
+                    <dt>帐号管理</dt>
+                    <dd>
+                        <a href="#">修改密码</a>
+                        <a href="#">修改用户名</a>
+                        <a href="#">设置密保问题</a>
+                    </dd>
+                </dl>
+            </li>
+            <li>
+                <h3>首页管理</h3>
+                <dl>
+                    <dt>首页管理</dt>
+                    <dd>
+                        <a href="#">轮转照片设置</a>
+                        <a href="#">产品展示照片设置</a>
+                        <a href="#">底部信息修改</a>
+                    </dd>
+                </dl>
+            </li>
+            <li>
+                <h3>产品管理</h3>
+                <dl>
+                    <dt>产品管理</dt>
+                    <dd>
+                        <a href="#">增加新产品</a>
+                        <a href="#">管理全部产品</a>
+                        <a href="#">类别管理</a>
+                    </dd>
+                </dl>
+            </li>
+            <li>
+                <h3>新闻管理</h3>
+                <dl>
+                    <dt>新闻管理</dt>
+                    <dd>
+                        <a href="#">发布新闻</a>
+                        <a href="#">全部新闻管理</a>
+                        <a href="#">增加系列</a>
+                        <a href="#">新闻系列管理</a>
+                    </dd>
+                </dl>
+            </li>
+            <li>
+                <h3>反馈管理</h3>
+                <dl>
+                    <dt>反馈管理</dt>
+                    <dd>
+                        <a href="#">管理所有反馈</a>
+                    </dd>
+                </dl>
+            </li>
+            <li>
+                <h3>企业信息管理</h3>
+                <dl>
+                    <dt>企业信息管理</dt>
+                    <dd>
+                        <a href="#">企业简介</a>
+                        <a href="#">企业联系方式设置</a>
+                        <a href="#">人才招聘管理</a>
+                    </dd>
+                </dl>
+            </li>
+            <li>
+                <h3>权限管理</h3>
+                <dl>
+                    <dt>权限管理</dt>
+                    <dd>
+                        <a href="#">添加新管理员</a>
+                        <a href="#">查看所有账号权限</a>
+                        <a href="#">查看申诉</a>
+                    </dd>
+                </dl>
+            </li>
+            <li>
+                <h3>功能管理</h3>
+                <dl>
+                    <dt>功能管理</dt>
+                    <dd>
+                        <a href="#">一级功能设置</a>
+                    </dd>
+                </dl>
+            </li>
+            <li>
+                <h3>权限查看与申请</h3>
+                <dl>
+                    <dt>权限查看与申请</dt>
+                    <dd>
+                        <a href="#">查看自己的权限</a>
+                        <a href="#">申请权限</a>
+                    </dd>
+                </dl>
+            </li>
+        </ul>
+    </div>
+</div>
+<div id="content">
+</div>
+<div id="footer">
+</div>
+</body>
+</html>
