@@ -4,8 +4,8 @@ html {
   font-family: "苹方字体";
 }
 .easytrip-login {
-  width: 1920px;
-  height: 1080px;
+  width: 19.2rem;
+  height: 10.8rem;
   background: url("../images/loginbackground.png") no-repeat;
   background-size: cover;
   background-position: center center;
@@ -14,25 +14,26 @@ html {
   margin: 0 auto;
 }
 .easytrip-login .easytrip-logo {
-  width: 245px;
-  height: 119px;
+  width: 2.45rem;
+  height: 1.19rem;
   background: url("../images/logo.png") no-repeat;
+  background-size: cover;
   margin-left: 50%;
-  margin-top: 105px;
-  transform: translateX(-122.5px);
-  -ms-transform: translateX(-122.5px);
+  margin-top: 1.05rem;
+  transform: translateX(-1.225rem);
+  -ms-transform: translateX(-1.225rem);
   /* IE 9 */
-  -moz-transform: translateX(-122.5px);
+  -moz-transform: translateX(-1.225rem);
   /* Firefox */
-  -webkit-transform: translateX(-122.5px);
+  -webkit-transform: translateX(-1.225rem);
   /* Safari 和 Chrome */
-  -o-transform: translateX(-122.5px);
+  -o-transform: translateX(-1.225rem);
   /* Opera */
 }
 .easytrip-login .easytrip-logintext::before {
   content: '';
   display: block;
-  width: 82px;
+  width: 0.82rem;
   height: 1px;
   background-color: #FAFFFA;
   position: absolute;
@@ -42,7 +43,7 @@ html {
 .easytrip-login .easytrip-logintext::after {
   content: '';
   display: block;
-  width: 82px;
+  width: .82rem;
   height: 1px;
   background-color: #FAFFFA;
   position: absolute;
@@ -50,68 +51,60 @@ html {
   top: 50%;
 }
 .easytrip-login .easytrip-logintext {
-  font-size: 24px;
+  font-size: .24rem;
   color: #fff;
   position: relative;
-  margin-top: 40px;
+  margin-top: .40rem;
 }
 .easytrip-login .easytrip-logininput {
-  background: url("../images/logininput.png");
-  width: 661px;
-  height: 436px;
-  margin-left: 50%;
-  margin-top: 106px;
-  padding-top: 50px;
-  transform: translateX(-330.5px);
-  -ms-transform: translateX(-330.5px);
-  /* IE 9 */
-  -moz-transform: translateX(-330.5px);
-  /* Firefox */
-  -webkit-transform: translateX(-330.5px);
-  /* Safari 和 Chrome */
-  -o-transform: translateX(-330.5px);
-  /* Opera */
+  background: url("../images/logininput.png") no-repeat;
+  width: 6.61rem;
+  height: 4.36rem;
+  padding-top: .5rem;
+  background-size: contain;
+  margin: 1.06rem auto;
 }
 .easytrip-login .easytrip-logininput p {
   color: #2a2a2a;
-  font-size: 24px;
+  font-size: .24rem;
 }
 .easytrip-login .easytrip-logininput p span {
-  font-size: 30px;
+  font-size: .30rem;
   color: #45A2FF;
 }
 .easytrip-login .easytrip-logininput input[type="text"] {
-  margin-top: 30px;
+  margin-top: .30rem;
   border: 1px solid #b3b3b3;
-  width: 318px;
-  height: 40px;
+  width: 3.18rem;
+  height: .40rem;
   border-radius: 3px;
-  font-size: 18px;
+  font-size: .18rem;
   color: #999;
+  padding-left: .4rem;
 }
 .easytrip-login .easytrip-logininput .easytrip-loginusername {
-  padding: 0 150px;
+  padding: 0 1.50rem;
   position: relative;
 }
 .easytrip-login .easytrip-logininput .easytrip-loginusername .easytrip-loginname:hover {
   border: 1px solid #ffc468;
 }
 .easytrip-login .easytrip-logininput .easytrip-loginusername .username {
-  font-size: 22px;
+  font-size: .22rem;
   color: #ffc468;
   position: absolute;
-  left: 160px;
-  top: 12px;
+  left: 1.60rem;
+  top: .12rem;
 }
 .easytrip-login .easytrip-logininput .easytrip-loginlock {
-  padding: 0 150px;
+  padding: 0 1.50rem;
   position: relative;
 }
 .easytrip-login .easytrip-logininput .easytrip-loginlock .password {
-  font-size: 22px;
+  font-size: .22rem;
   position: absolute;
-  left: 160px;
-  top: 12px;
+  left: 1.60rem;
+  top: .12rem;
   color: #999;
 }
 .easytrip-login .easytrip-logininput .easytrip-loginlock .easytrip-loginpassword:hover {
@@ -119,9 +112,9 @@ html {
 }
 .easytrip-login .easytrip-logininput .easytrip-alink {
   text-align: left;
-  padding: 0 150px;
-  margin-top: 30px;
-  font-size: 18px;
+  padding: 0 1.50rem;
+  margin-top: .30rem;
+  font-size: .18rem;
 }
 .easytrip-login .easytrip-logininput .easytrip-alink .easytrip-getpassword {
   position: relative;
@@ -131,47 +124,50 @@ html {
   display: none;
 }
 .easytrip-login .easytrip-logininput .easytrip-alink .easytrip-getpassword label {
-  padding-left: 35px;
+  padding-left: .35rem;
 }
 .easytrip-login .easytrip-logininput .easytrip-alink .easytrip-getpassword i {
   position: absolute;
   display: block;
-  width: 19px;
-  height: 19px;
+  width: .19rem;
+  height: .19rem;
   background: url("../images/confirm.png");
   top: 0px;
   left: 0px;
+  background-size: contain;
+  background-position: center center;
 }
 .easytrip-login .easytrip-logininput .easytrip-alink .easytrip-forgetpassword {
   float: right;
   color: #ffc468;
 }
 .easytrip-login .easytrip-logininput .easytrip-submit {
-  padding: 0 150px;
+  padding: 0 1.50rem;
 }
 .easytrip-login .easytrip-logininput .easytrip-submit input[type="button"] {
-  margin-top: 30px;
+  margin-top: .30rem;
   border: 1px solid #b3b3b3;
-  width: 360px;
-  height: 40px;
+  width: 3.60rem;
+  height: .40rem;
   border-radius: 3px;
-  font-size: 18px;
+  font-size: .18rem;
   color: #fff;
   background-color: #45A2FF;
 }
 .easytrip-login .easytrip-logininput .easytrip-commitsoon {
-  padding: 0 150px;
-  margin-top: 15px;
+  padding: 0 1.50rem;
+  margin-top: .15rem;
 }
 .easytrip-login .easytrip-logininput .easytrip-commitsoon a {
   float: right;
   color: #999;
+  font-size: .18rem;
 }
 .easytrip-login .easytrip-loginfoot {
   text-align: center;
-  margin-top: 170px;
+  margin-top: 1.70rem;
 }
 .easytrip-login .easytrip-loginfoot span {
   color: #2a2a2a;
-  font-size: 24px;
+  font-size: .24rem;
 }
