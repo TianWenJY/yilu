@@ -1,11 +1,11 @@
 /*阿里图标库的图标*/
 @font-face {
     font-family: 'iconfont';  /* project id 419779 */
-    src: url('//at.alicdn.com/t/font_419779_21mqeuj08g5y7gb9.eot');
-    src: url('//at.alicdn.com/t/font_419779_21mqeuj08g5y7gb9.eot?#iefix') format('embedded-opentype'),
-    url('//at.alicdn.com/t/font_419779_21mqeuj08g5y7gb9.woff') format('woff'),
-    url('//at.alicdn.com/t/font_419779_21mqeuj08g5y7gb9.ttf') format('truetype'),
-    url('//at.alicdn.com/t/font_419779_21mqeuj08g5y7gb9.svg#iconfont') format('svg');
+    src: url('//at.alicdn.com/t/font_419779_4fal82x6g55qaor.eot');
+    src: url('//at.alicdn.com/t/font_419779_4fal82x6g55qaor.eot?#iefix') format('embedded-opentype'),
+    url('//at.alicdn.com/t/font_419779_4fal82x6g55qaor.woff') format('woff'),
+    url('//at.alicdn.com/t/font_419779_4fal82x6g55qaor.ttf') format('truetype'),
+    url('//at.alicdn.com/t/font_419779_4fal82x6g55qaor.svg#iconfont') format('svg');
 }
 .iconfont{
     font-family:"iconfont";
